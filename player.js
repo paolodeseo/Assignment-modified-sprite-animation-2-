@@ -229,7 +229,7 @@ class Player {
                             else if (action == 'punch') {
                                 this.actions.punch.frame_counter++;
 
-                                if (this.actions.punch.frame_counter > 11) {
+                                if (this.actions.punch.frame_counter > 10) {
                                     this.actions.punch.frame_counter = 0;
                                     this.movement.PUNCH = false
                                 }
